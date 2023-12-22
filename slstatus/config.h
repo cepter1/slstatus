@@ -67,6 +67,6 @@ static const struct arg args[] = {
 	{ ram_perc, "[RAM%s%%] ", NULL	      },
 	{ temp, "[TEMP%sC] ", "/sys/class/thermal/thermal_zone0/temp" },
 	{ wifi_perc, "[WIFI%s%%] ", "wlan0" },
-	{ battery_perc, "[BAT%s%%] ", "BAT0" },
+	{ battery_perc, "[BAT%s%%] ", "BAT1" },
 	{ datetime, "%s",         "%a %b %d %r" },
 };
